@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Impara Arduino — lezioni interattive in 3D per principianti</title>
     <meta name="description" content="Impara Arduino su una scheda 3D interattiva: collega LED, pulsanti, sensori, motori e servo, poi esegui il codice e guardalo funzionare. 16 lezioni gratuite per principianti." />
-    <meta name="author" content="Dilum Sanjaya" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#f6eddd" />
     <meta name="color-scheme" content="light" />
@@ -23,7 +22,6 @@
     <meta property="og:title" content="Impara Arduino — lezioni interattive in 3D" />
     <meta property="og:description" content="Collega LED, pulsanti, sensori, motori e servo su un Arduino Uno in 3D, poi esegui il codice e guardalo funzionare. 16 lezioni gratuite per principianti." />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@DilumSanjaya" />
     <link rel="canonical" href="https://learn-arduino-red.vercel.app/it/" />
     <link rel="alternate" hreflang="en" href="https://learn-arduino-red.vercel.app/" />
     <link rel="alternate" hreflang="es" href="https://learn-arduino-red.vercel.app/es/" />
@@ -58,7 +56,7 @@
     <meta property="og:image:alt" content="Un Arduino Uno 3D illustrato, collegato su una breadboard a un sensore di distanza e a un semaforo, con una macchinina davanti" />
     <meta name="twitter:image" content="https://learn-arduino-red.vercel.app/og-image-it.png" />
     <meta name="twitter:image:alt" content="Un Arduino Uno 3D illustrato, collegato su una breadboard a un sensore di distanza e a un semaforo, con una macchinina davanti" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":["WebApplication","LearningResource"],"name":"Impara Arduino","url":"https://learn-arduino-red.vercel.app/it/","description":"Impara Arduino su una scheda 3D interattiva: collega LED, pulsanti, sensori, motori e servo, poi esegui il codice e guardalo funzionare. 16 lezioni gratuite per principianti.","image":"https://learn-arduino-red.vercel.app/og-image-it.png","applicationCategory":"EducationalApplication","operatingSystem":"Any (runs in a web browser with WebGL)","browserRequirements":"Requires JavaScript and WebGL.","inLanguage":"it","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"educationalLevel":"Beginner","learningResourceType":"Interactive lesson","teaches":["Conosci la scheda","Fai lampeggiare un LED","Premi un pulsante","Gira una manopola","Mescola i colori","Rileva la luce","Leggi un sensore","Produci un suono","Mini pianoforte","Controlla un motore","Rileva il calore","Muovi un servo","Gira la ruota","Pianta smart","Senti la forza","Costruisci un progetto"],"about":["Arduino","Electronics","Microcontrollers","Programming"],"author":{"@type":"Person","name":"Dilum Sanjaya","url":"https://x.com/DilumSanjaya"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":["WebApplication","LearningResource"],"name":"Impara Arduino","url":"https://learn-arduino-red.vercel.app/it/","description":"Impara Arduino su una scheda 3D interattiva: collega LED, pulsanti, sensori, motori e servo, poi esegui il codice e guardalo funzionare. 16 lezioni gratuite per principianti.","image":"https://learn-arduino-red.vercel.app/og-image-it.png","applicationCategory":"EducationalApplication","operatingSystem":"Any (runs in a web browser with WebGL)","browserRequirements":"Requires JavaScript and WebGL.","inLanguage":"it","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"educationalLevel":"Beginner","learningResourceType":"Interactive lesson","teaches":["Conosci la scheda","Fai lampeggiare un LED","Premi un pulsante","Gira una manopola","Mescola i colori","Rileva la luce","Leggi un sensore","Produci un suono","Mini pianoforte","Controlla un motore","Rileva il calore","Muovi un servo","Gira la ruota","Pianta smart","Senti la forza","Costruisci un progetto"],"about":["Arduino","Electronics","Microcontrollers","Programming"]}</script>
     <!-- linked here rather than imported from main.js, so the first paint
          (the loading screen) is already styled, on the dev server too -->
     <link rel="preload" href="/assets/barlow-semi-condensed-latin-600-normal-BkLiAYu4.woff2" as="font" type="font/woff2" crossorigin />
@@ -138,11 +136,6 @@
             </a>
           </li>
         </ul>
-        <a class="credit credit-side" href="https://x.com/DilumSanjaya" target="_blank" rel="noopener noreferrer" title="Progettato da x.com/DilumSanjaya">
-          <span class="credit-text"><small>Progettato da</small><b>x.com/DilumSanjaya</b></span>
-          <span class="credit-rule" aria-hidden="true"></span>
-          <svg class="credit-x" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.59-6.64 7.59H.47l8.6-9.83L0 1.15h7.6l5.24 6.93zm-1.29 19.5h2.04L6.49 3.24H4.3z" /></svg>
-        </a>
       </nav>
       <aside class="flyout" id="flyout" aria-live="polite"></aside>
 
@@ -276,15 +269,6 @@
         <h2>Lezioni</h2>
         <ol class="lesson-list" id="lesson-list"></ol>
       </section>
-
-      <!-- Footer (compact layout; the wide layout keeps these in the side nav) -->
-      <footer class="app-foot">
-        <a class="credit credit-row" href="https://x.com/DilumSanjaya" target="_blank" rel="noopener noreferrer" title="Progettato da x.com/DilumSanjaya">
-          <svg class="credit-x" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.59-6.64 7.59H.47l8.6-9.83L0 1.15h7.6l5.24 6.93zm-1.29 19.5h2.04L6.49 3.24H4.3z" /></svg>
-          <span class="credit-rule" aria-hidden="true"></span>
-          <span class="credit-text"><small>Progettato da</small><b>x.com/DilumSanjaya</b></span>
-        </a>
-      </footer>
     </div>
   </body>
 </html>

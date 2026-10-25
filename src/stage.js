@@ -16710,7 +16710,7 @@ var xs = class {
   },
   Ss = `M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.59-6.64 7.59H.47l8.6-9.83L0 1.15h7.6l5.24 6.93zm-1.29 19.5h2.04L6.49 3.24H4.3z`,
   Cs = `#bba78a`,
-  ws = `x.com/DilumSanjaya`,
+  ws = ``,
   Ts = 900,
   Es = 0.8;
 function Ds() {
@@ -16785,7 +16785,7 @@ var Os = class {
       );
     }
   },
-  ks = { floorCredit: !0, instantRun: !1 },
+  ks = { floorCredit: !1, instantRun: !1 },
   As = 1,
   js = -4,
   Ms = Math.PI / 180,

@@ -2562,7 +2562,7 @@ function Rt() {
   if (!e) return;
   let t =
     !V &&
-    F(`.credit-side`).offsetTop -
+    (F(`.credit-side`)?.offsetTop ?? 1e9) -
       (parseFloat(getComputedStyle(e).top) + e.offsetHeight) <
       24;
   e.classList.toggle(`is-cramped`, t);
